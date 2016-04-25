@@ -6,7 +6,6 @@ chapter1
 1_1_local_machine_info
 import socket
 
-
 def print_machine_info():
     host_name = socket.gethostname()
     ip_address = socket.gethostbyname(host_name)
@@ -17,7 +16,6 @@ if __name__ == '__main__':
     print_machine_info()
     
 1_2_remote_machine_info
-
 import socket
 
 def get_remote_machine_info():
@@ -31,7 +29,6 @@ if __name__ == '__main__':
     get_remote_machine_info()
 
 1_3_ip4_address_conversion
-
 import socket
 from binascii import hexlify
 
@@ -46,7 +43,6 @@ if __name__ == '__main__':
     convert_ip4_address()
     
 1_4_finding_service_name
-
 import socket
 
 def find_service_name():
@@ -61,7 +57,6 @@ if __name__ == '__main__':
     
     
 1_5_integer_conversion
-
 import socket
 
 def convert_integer():
@@ -76,7 +71,6 @@ if __name__ == '__main__':
     convert_integer()
     
 1_6_socket_timeout
-
 import socket
 
 def test_socket_timeout():
@@ -90,7 +84,6 @@ if __name__ == '__main__':
 
 
 1_7_socket_errors
-
 import sys
 import socket
 import argparse 
@@ -147,7 +140,6 @@ if __name__ == '__main__':
     main()
     
 1_8_modify_buff_size
-
 import socket
 
 SEND_BUF_SIZE = 4096
@@ -176,7 +168,6 @@ if __name__ == '__main__':
     modify_buff_size()
     
 1_9_socket_modes
-
 import socket
 
 def test_socket_modes():
@@ -194,7 +185,6 @@ if __name__ == '__main__':
     test_socket_modes()
     
 1_10_reuse_socket_address
-
 import socket
 import sys
 
@@ -232,7 +222,6 @@ if __name__ == '__main__':
     reuse_socket_addr()
 
 1_11_print_machine_time
-
 import ntplib
 from time import ctime
 
@@ -248,7 +237,6 @@ if __name__ == '__main__':
 
 
 1_12_sntp_client
-
 import socket
 import struct
 import sys
@@ -274,7 +262,6 @@ if __name__ == '__main__':
 
 
 1_13a_echo_server
-
 import socket
 import sys
 import argparse
@@ -315,7 +302,6 @@ if __name__ == '__main__':
     echo_server(port)
     
 1_13b_echo_client
-
 import socket
 import sys
 
